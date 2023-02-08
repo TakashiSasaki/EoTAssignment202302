@@ -22,6 +22,16 @@ MenuActivity, DatabaseActivity）。ただし配布時にはエラーを数多�
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="
+配布時期は2023年2月12日（試験期間の前日）を予定しています。
+提出期限は2023年2月19日（日曜日）です。
+"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="
 完成したプロジェクトをAndroid StudioからZIPファイル形式でエクスポートしてTeamsで提出してください。
 エラーなくビルドできエミュレーターで実行できれば80点、
@@ -48,6 +58,7 @@ MenuActivity, DatabaseActivity）。ただし配布時にはエラーを数多�
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonListViewActivity"
             android:padding="10dp"
             android:text="ListViewActivity"
             tools:ignore="HardcodedText" />
@@ -72,6 +83,7 @@ MenuActivity, DatabaseActivity）。ただし配布時にはエラーを数多�
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonDatabaseActivity"
             android:padding="10dp"
             android:text="DatabaseActivity"
             tools:ignore="HardcodedText" />
@@ -96,6 +108,7 @@ MenuActivity, DatabaseActivity）。ただし配布時にはエラーを数多�
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonFragmentActivity"
             android:padding="10dp"
             android:text="FragmentActivity"
             tools:ignore="HardcodedText" />
@@ -120,6 +133,7 @@ MenuActivity, DatabaseActivity）。ただし配布時にはエラーを数多�
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonMenuActivity"
             android:padding="10dp"
             android:text="MenuActivity"
             tools:ignore="HardcodedText" />
@@ -145,6 +159,7 @@ MenuActivity, DatabaseActivity）。ただし配布時にはエラーを数多�
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="buttonMediaActivity"
             android:padding="10dp"
             android:text="MediaActivity"
             tools:ignore="HardcodedText" />
