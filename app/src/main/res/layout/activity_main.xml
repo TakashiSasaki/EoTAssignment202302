@@ -58,7 +58,7 @@ MenuActivity, DatabaseActivity）。ただし配布時にはエラーを数多�
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="buttonListViewActivity"
+            android:onClick="startListViewActivity"
             android:padding="10dp"
             android:text="ListViewActivity"
             tools:ignore="HardcodedText" />
@@ -83,7 +83,7 @@ MenuActivity, DatabaseActivity）。ただし配布時にはエラーを数多�
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="buttonDatabaseActivity"
+            android:onClick="startDatabaseActivity"
             android:padding="10dp"
             android:text="DatabaseActivity"
             tools:ignore="HardcodedText" />
@@ -108,7 +108,7 @@ MenuActivity, DatabaseActivity）。ただし配布時にはエラーを数多�
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="buttonFragmentActivity"
+            android:onClick="startFragmentActivity"
             android:padding="10dp"
             android:text="FragmentActivity"
             tools:ignore="HardcodedText" />
@@ -133,7 +133,7 @@ MenuActivity, DatabaseActivity）。ただし配布時にはエラーを数多�
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="buttonMenuActivity"
+            android:onClick="startMenuActivity"
             android:padding="10dp"
             android:text="MenuActivity"
             tools:ignore="HardcodedText" />
@@ -159,7 +159,7 @@ MenuActivity, DatabaseActivity）。ただし配布時にはエラーを数多�
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="buttonMediaActivity"
+            android:onClick="startMediaActivity"
             android:padding="10dp"
             android:text="MediaActivity"
             tools:ignore="HardcodedText" />
