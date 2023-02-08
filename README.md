@@ -1,5 +1,5 @@
 # 2022年度後期課題
-Githubから課題用のプロジェクトをクローンし、エラーを修正したうえで指示された機能を実装してください。プロジェクトをAndroid Studioからエクスポートし、Teamsで提出してください。
+Githubから課題用のプロジェクト EoTAssignment202302 をクローンし、マスターブランチのエラーを修正したうえで指示された機能を実装してください。プロジェクトをAndroid Studioからエクスポートし、Teamsで提出してください。
 https://github.com/TakashiSasaki/EoTAssignment202302
 
 # 評価について
