@@ -14,13 +14,19 @@
         android:text="
 2022後期のAndroidプログラミングに関する授業で説明した内容のうち特に重要なものをピックアップし、
 サンプルのアクティビティを5つ作成しました（FragmentActivity, ListViewActivity, MediaActivity,
-MenuActivity, DatabaseActivity）。
-ただし配布時にはエラーを数多く含んでおり、実装されていない機能もあります。
+MenuActivity, DatabaseActivity）。ただし配布時にはエラーを数多く含んでおり、実装されていない機能もあります。"
+        tools:ignore="HardcodedText">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
 完成したプロジェクトをAndroid StudioからZIPファイル形式でエクスポートしてTeamsで提出してください。
 エラーなくビルドできエミュレーターで実行できれば80点、
 各アクティビティにおいて実装せよと指示されている機能を実装できれば
-アクティビティごとに10点を加算します。ただし100点を上限とします。
-"
+アクティビティごとに10点を加算します。ただし100点を上限とします。"
         tools:ignore="HardcodedText" />
 
     <LinearLayout
