@@ -13,7 +13,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     public DatabaseHelper(@Nullable Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
-    }
+    }//DatabaseHelper
 
     @Override
     public void onCreate(SQLiteDatabase db) {
@@ -24,9 +24,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         sb.append("note TEXT );");
         String sql = sb.toString();
         db.execSQL(sql);
-    }
+    }//onCreate
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
     }
-}
+}//DatabaseHelper class
