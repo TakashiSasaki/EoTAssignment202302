@@ -57,5 +57,10 @@
     <string name="menu_list_context_order">ご注文</string>
     <string name="menu_list_context_header">操作を選んでください</string>
     <string name="tv_menu_unit">円</string>
-
+    
+    <string name="bt_play_play">再生</string>
+    <string name="bt_play_pause">一時停止</string>
+    <string name="bt_back">&lt;&lt;</string>
+    <string name="bt_forward">&gt;&gt;</string>
+    <string name="sw_loop">リピート再生</string>
 </resources>

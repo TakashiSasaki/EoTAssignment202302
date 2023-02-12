@@ -30,4 +30,8 @@ public class MainActivity extends AppCompatActivity {
     public void startMenuActivity(View view) {
         startActivity(new Intent(this, MenuActivity.class));
     }//startMenuActivity
+
+    public void startMediaActivity(View v) {
+        startActivity(new Intent(this, MediaActivity.class));
+    }//startMediaActivity
 }//MainActivity
