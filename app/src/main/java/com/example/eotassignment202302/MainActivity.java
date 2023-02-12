@@ -22,4 +22,8 @@ public class MainActivity extends AppCompatActivity {
     public void startFragmentActivity(View view) {
         startActivity(new Intent(this, FragmentActivity.class));
     }//startFragmentActivity
+
+    public void startListViewActivity(View view) {
+        startActivity(new Intent(this, ListViewActivity.class));
+    }//startListViewActivity
 }//MainActivity
