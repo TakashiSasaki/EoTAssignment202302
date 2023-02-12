@@ -24,8 +24,7 @@ public class ListViewActivity extends AppCompatActivity {
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             String item = (String) parent.getItemAtPosition(position);
             String show = "あなたが選んだ定食：　" + item;
-            //Toast.makeText(MainActivity.this, show, Toast.LENGTH_LONG).show();
-            Toast.makeText(getApplicationContext(), show, Toast.LENGTH_LONG).show();
+            Toast./* TODO: ここにトーストを表示するコードを追加し、show変数の内容を表示してください。 */;
         }//onItemClick
     }//ListItemClickListener
 }//ListViewActivity

@@ -40,7 +40,7 @@ public class MediaActivity extends AppCompatActivity {
             _player.setDataSource(getApplicationContext(), mediaFileUri);
             _player.setOnPreparedListener(new PlayerPreparedListener());
             _player.setOnCompletionListener(new PlayerCompletionListener());
-            _player.prepareAsync(); //ここでメディアファイル（mp3, mp4）がロードされる
+            _player. //TODO: ここでメディアファイル（mp3, mp4）をロードするメソッドを呼び出してください。
         } catch (IOException e) {
             e.printStackTrace();
         }//try

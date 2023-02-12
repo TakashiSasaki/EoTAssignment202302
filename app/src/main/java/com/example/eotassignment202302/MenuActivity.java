@@ -39,7 +39,7 @@ public class MenuActivity extends AppCompatActivity {
         _menuList = createTeishokuList();
 
         SimpleAdapter adapter = new SimpleAdapter(this, _menuList, R.layout.row, FROM, TO);
-        _lvMenu.setAdapter(adapter);
+        _lvMenu./* TODO: ここにアダプターをリストビューに設定するメソッド呼び出しを追加してください */;
         _lvMenu.setOnItemClickListener(new ListItemClickListener());
 
         registerForContextMenu(_lvMenu);

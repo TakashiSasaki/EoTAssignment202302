@@ -65,8 +65,9 @@ public class DatabaseActivity extends AppCompatActivity {
             _cocktailName = (String) parent.getItemAtPosition(position);
 
             SQLiteDatabase readableDatabase = _helper.getReadableDatabase();
+
             Cursor cursor = readableDatabase.rawQuery
-                    ("SELECT * FROM cocktailmemos WHERE _id = " + _cocktailId, null);
+                    (/* TODO: ここに正しいSQL文を入れてください */ + _cocktailId, null);
 
             String note = "";
 
