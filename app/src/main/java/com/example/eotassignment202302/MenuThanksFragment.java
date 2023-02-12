@@ -35,8 +35,6 @@ public class MenuThanksFragment extends Fragment {
                         startActivity(new Intent(getActivity(), FragmentActivity.class));
                     }
                 });
-
-
         return v;
-    }
-}
+    }//onCreateView
+}//MenuThanksFragment
