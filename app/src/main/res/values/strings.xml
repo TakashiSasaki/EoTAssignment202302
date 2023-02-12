@@ -1,12 +1,11 @@
 <resources>
     <string name="app_name">EoT assignment in 2022</string>
-    <string name="openingMessage">配布時期は2023年2月12日（試験期間の前日）を予定しています。<!--
+    <string name="openingMessage">このプロジェクトには5つのエラーが含まれています。<!--
+        -->エラー箇所にあるTODOの指示に従いコードを補完してください。<!--
         -->提出期限は2023年2月19日（日曜日）です。<!--
-        -->2月12日になったらGithubよりプロジェクトをクローンして課題を始めてください。<!--
         -->課題の始め方が分からない時はTeamsで質問してください。<!--
-        -->準備が遅れています。すみません。2月12日中にアップロードします。<!--
-        -->準備ができましたらTeamsでアナウンスいたします。<!--
-        -->（2月12日12時追記）</string>
+        -->完成したプロジェクトをAndroid StudioからZIPファイル形式でエクスポートしてTeamsで提出してください。
+    </string>
 
     <string-array name="lv_cocktaillist">
         <item>ホワイトレディー</item>
@@ -56,7 +55,7 @@
     <string name="menu_list_context_order">ご注文</string>
     <string name="menu_list_context_header">操作を選んでください</string>
     <string name="tv_menu_unit">円</string>
-    
+
     <string name="bt_play_play">再生</string>
     <string name="bt_play_pause">一時停止</string>
     <string name="bt_back">&lt;&lt;</string>
