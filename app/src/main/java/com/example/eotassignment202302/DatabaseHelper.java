@@ -1,4 +1,4 @@
-package com.example.toeassignment202302;
+package com.example.eotassignment202302;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

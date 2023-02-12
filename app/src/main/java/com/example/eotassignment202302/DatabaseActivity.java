@@ -1,4 +1,4 @@
-package com.example.toeassignment202302;
+package com.example.eotassignment202302;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,7 +13,6 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.allinone202302.R;
 
 public class DatabaseActivity extends AppCompatActivity {
 

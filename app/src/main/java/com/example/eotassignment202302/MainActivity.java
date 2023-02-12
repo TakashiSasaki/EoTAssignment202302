@@ -1,4 +1,4 @@
-package com.example.toeassignment202302;
+package com.example.eotassignment202302;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.allinone202302.R;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,10 +1,8 @@
-package com.example.toeassignment202302;
+package com.example.eotassignment202302;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
-import com.example.allinone202302.R;
 
 public class FragmentActivity extends AppCompatActivity {
 

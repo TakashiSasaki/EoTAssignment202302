@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.allinone202302'
+    namespace 'com.example.eotassignment202302'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.allinone202302"
+        applicationId "com.example.eotassignment202302202302"
         minSdk 26
         targetSdk 32
         versionCode 1

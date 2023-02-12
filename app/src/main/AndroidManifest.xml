@@ -13,28 +13,28 @@
         android:theme="@style/Theme.Allinone202302"
         tools:targetApi="31">
         <activity
-            android:name="com.example.toeassignment202302.MenuActivity"
+            android:name="com.example.eotassignment202302.MenuActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.toeassignment202302.FragmentActivity"
+            android:name="com.example.eotassignment202302.FragmentActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.toeassignment202302.MediaActivity"
+            android:name="com.example.eotassignment202302.MediaActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.toeassignment202302.DatabaseActivity"
+            android:name="com.example.eotassignment202302.DatabaseActivity"
             android:exported="false"
             android:launchMode="singleTop">
             <meta-data
@@ -42,14 +42,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.toeassignment202302.ListViewActivity"
+            android:name="com.example.eotassignment202302.ListViewActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name="com.example.toeassignment202302.MainActivity"
+            android:name="com.example.eotassignment202302.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
