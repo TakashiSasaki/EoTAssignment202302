@@ -28,6 +28,15 @@ public class MenuThanksFragment extends Fragment {
         final TextView tvMenuPrice = v.findViewById(R.id.tvMenuPrice);
         tvMenuPrice.setText(menuPrice);
 
+        v.findViewById(R.id.btBackButton).
+                setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        startActivity(new Intent(getActivity(), FragmentActivity.class));
+                    }
+                });
+
+
         return v;
     }
 }
