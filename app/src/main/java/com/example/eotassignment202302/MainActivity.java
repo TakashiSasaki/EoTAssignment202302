@@ -18,4 +18,8 @@ public class MainActivity extends AppCompatActivity {
     public void startDatabaseActivity(View view) {
         startActivity(new Intent(this, DatabaseActivity.class));
     }//startDatabaseActivity
+
+    public void startFragmentActivity(View view) {
+        startActivity(new Intent(this, FragmentActivity.class));
+    }//startFragmentActivity
 }//MainActivity

@@ -26,6 +26,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name="com.example.eotassignment202302.MenuThanksActivity" />
         <activity
             android:name="com.example.eotassignment202302.MediaActivity"
             android:exported="false">
