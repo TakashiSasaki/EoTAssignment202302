@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuListOptionTeishoku"
+        android:icon="@android:drawable/presence_audio_online"
+        android:title="@string/menu_list_options_teishoku"
+        android:tooltipText="@string/menu_list_options_teishoku"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/menuListOptionCurry"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="@string/menu_list_options_curry"
+        android:tooltipText="@string/menu_list_options_curry"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>

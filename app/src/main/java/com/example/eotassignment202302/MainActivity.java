@@ -26,4 +26,8 @@ public class MainActivity extends AppCompatActivity {
     public void startListViewActivity(View view) {
         startActivity(new Intent(this, ListViewActivity.class));
     }//startListViewActivity
+
+    public void startMenuActivity(View view) {
+        startActivity(new Intent(this, MenuActivity.class));
+    }//startMenuActivity
 }//MainActivity
