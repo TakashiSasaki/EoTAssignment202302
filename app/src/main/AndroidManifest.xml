@@ -35,7 +35,8 @@
         </activity>
         <activity
             android:name="com.example.toeassignment202302.DatabaseActivity"
-            android:exported="false">
+            android:exported="false"
+            android:launchMode="singleTop">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
