@@ -27,11 +27,7 @@ MenuActivity, DatabaseActivity）。ただし配布時にはエラーを数多�
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:text="
-配布時期は2023年2月12日（試験期間の前日）を予定しています。
-提出期限は2023年2月19日（日曜日）です。
-"
-            tools:ignore="HardcodedText" />
+            android:text="@string/openingMessage" />
 
         <TextView
             android:layout_width="wrap_content"
